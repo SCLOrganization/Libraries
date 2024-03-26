@@ -27,7 +27,7 @@
       </Item>
     </RequiredPkgs>
     <UsageOptions>
-      <LibraryPath Value="$(PkgDir)\..\Kernel32\$(TargetCPU)-$(TargetOS);$(PkgDir)\..\ZStandard\$(TargetCPU)-$(TargetOS)"/>
+      <LibraryPath Value="$(PkgDir)\..\Kernel32\$(TargetCPU)-$(TargetOS);$(PkgDir)\..\ZStandard\$(TargetCPU)-$(TargetOS);$(PkgDir)\..\xxHash\$(TargetCPU)-$(TargetOS)"/>
       <ObjectPath Value="$(PkgDir)\..\SQLite3\$(TargetCPU)-$(TargetOS)"/>
       <UnitPath Value="$(PkgOutDir)"/>
     </UsageOptions>
